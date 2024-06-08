@@ -20,7 +20,7 @@ func TestGetAPIKey_NoAuthHeader(t *testing.T) {
 
 func TestGetAPIKey_ValidAuthHeader(t *testing.T) {
 	headers := http.Header{}
-	headers.Set("Authorization1", "ApiKey testkey123")
+	headers.Set("Authorization", "ApiKey testkey123")
 
 	apiKey, err := GetAPIKey(headers)
 	if err != nil {
