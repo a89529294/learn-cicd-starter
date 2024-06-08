@@ -1,6 +1,6 @@
 # Code Coverage
 
-![code coverage badge](https://github.com/a89529294/learn-ci-cd/actions/workflows/ci.yml/badge.svg)
+![code coverage badge](https://github.com/a89529294/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
